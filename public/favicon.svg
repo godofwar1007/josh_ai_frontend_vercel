@@ -1,0 +1,21 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular Background -->
+  <circle cx="90" cy="90" r="85" fill="#15110E" stroke="#C8892A" stroke-width="6" />
+  
+  <!-- Subtle Internal Radial Gradient (Ambient Glow) -->
+  <circle cx="90" cy="90" r="80" fill="url(#glowGradient)" opacity="0.3" />
+
+  <!-- Graduation Cap Icon (centered and scaled) -->
+  <g transform="translate(36, 36) scale(4.5)" stroke="#E8A830" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M22 10v6"/>
+    <path d="M2 10l10 5 10-5-10-5z"/>
+    <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+  </g>
+
+  <defs>
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E8A830" />
+      <stop offset="100%" stop-color="#15110E" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+</svg>
